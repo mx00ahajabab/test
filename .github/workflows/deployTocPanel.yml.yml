@@ -2,7 +2,7 @@ name: Publish Website to CPanel
 on:
   push:
     branches:
-      - gh-pages
+      -gh-pages
 jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
